@@ -1,14 +1,14 @@
 import streamlit as st
 import string
-#import nltk
+import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 import pickle
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# nltk.corpus.stopwords.words("english")
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.corpus.stopwords.words("english")
 
 #Function to process DF
 def transform_text(text):
